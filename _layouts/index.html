@@ -27,6 +27,8 @@ layout: default
 
     {{ post.content }}
 
+    <!--
+
     {% if post.excerpt %}
       {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
       {% capture content_words %}
@@ -42,6 +44,6 @@ layout: default
     {% endif %}
   </article>
   {% endfor %}
-
+  -->
   {% include pagination-older.html %}
 </div>
